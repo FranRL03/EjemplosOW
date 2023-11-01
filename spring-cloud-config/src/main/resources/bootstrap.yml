@@ -1,0 +1,18 @@
+server:
+  #  este puerto se utiliza para la configuracón de la aplicación
+  port: 8888
+
+#  añade un nombre a una de las aplicaciones que vamos creando
+  spring:
+    application:
+      name: configserver
+
+cloud:
+  config:
+    server:
+      git:
+        uri: https://github.com/franrl03/spring-cloud-config
+        username: franrl
+        password:
+
+
