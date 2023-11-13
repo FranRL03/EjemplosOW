@@ -1,8 +1,8 @@
 server:
-  #  este puerto se utiliza para la configuracón de la aplicación
+  #  este puerto se utiliza para la configuracï¿½n de la aplicacion
   port: 8888
 
-#  añade un nombre a una de las aplicaciones que vamos creando
+#  inserta un nombre a una de las aplicaciones que vamos creando
   spring:
     application:
       name: configserver
