@@ -71,7 +71,7 @@ public class ProductDAO {
         CriteriaQuery<Product> findByPredicates =  criteria
                 .select(product)
                 .where(finalPred);
-        
+
         return entityManager.createQuery(findByPredicates).getResultList();
     }
 }
