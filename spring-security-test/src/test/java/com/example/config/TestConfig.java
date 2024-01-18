@@ -12,6 +12,7 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 //@Configuration
 public class TestConfig {
 
+//    esta clase sirve para crear algunas configuraciones para los tests
     @Primary
     @Bean("userDetailsServiceTest")
     public UserDetailsService uesrDetailsService(PasswordEncoder passwordEncoder){
